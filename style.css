@@ -1,0 +1,131 @@
+@import url('./reset.css');
+
+
+:root {
+    --darkColor: #515151;
+    --lightColor: #fff;
+    --lightBlueColor: #AFEEEE;
+    --darkBlueColor: #2980b9;
+    --lighGreenColor: #1abc9c;
+    --darkGreenColor: #16a085;
+    --lightGrayColor: #ccc;
+    --taskManagerColor: #dff9fb;
+    --lighRedColor: #e74c3c;
+}
+
+
+
+/* section: form container */
+
+.form-container{
+    padding: 32px 16px;
+    background-color: var(--lightBlueColor);
+    border-radius: 16px;
+    width: 100%;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+label{
+    font-size: 1.2rem;
+    margin: 2px;
+    font-weight: initial;
+}
+
+.form-input input{
+    margin: 0px 0px 16px 0px;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.form-input input[type='text']{
+    width: 100%;
+}
+
+
+
+.form-container-accept{
+    display: flex;
+    align-items: center;
+    
+}
+
+.form-container-accept input{
+    padding: 0 ;
+    margin: 0;
+}
+
+.form-container-accept input{
+    padding: 0 ;
+    margin: 0;
+}
+
+input[type=date]{
+    width: 100%;
+
+}
+
+
+.form-container-accept .accept-check-box{
+    -webkit-appearance: none;
+	background-color: #ccc;
+	padding: 6px;
+	border-radius: 3px;
+}
+
+.form-container-accept .accept-check-box:checked{
+	background-color: var(--darkBlueColor);
+	padding: 6px;
+	border-radius: 3px;
+}
+
+
+.form-container-accept label{
+    padding: 0 ;
+    margin: 0 0 0 8px;
+}
+
+.form-gender{
+    display: flex;
+
+}
+
+.form-gender label {
+    padding: 0 3px;
+    margin: 0;
+}
+.form-gender input {
+    padding: 0;
+    margin: 0;
+}
+
+.check-box-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+.submit-button{
+    align-self: center;
+    margin: 16px;
+    padding: 8px 32px;
+    color: white;
+    background-color: var(--darkBlueColor);
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* end form container */
